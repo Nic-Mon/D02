@@ -8,9 +8,10 @@
 # Write your functions below:
 # Body
 
-
-
-
+def do_n(f,n):
+	while n!=0:
+		f()
+		n = n-1
 
 
 
@@ -25,7 +26,7 @@ def main():
     When complete have one function call in this function:
     do_n(print_hello, 10)
     """
-    print_hello() # replace this with do_n(print_hello, 10)
+    do_n(print_hello, 10) # replace this with do_n(print_hello, 10)
 
 
 
